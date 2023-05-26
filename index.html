@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="robots" content="noindex,nofollow">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Crispy Kitchen - Bootstrap 5 HTML Template</title>
+
+        <!-- CSS FILES -->    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">                    
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/tooplate-crispy-kitchen.css" rel="stylesheet">
+        <link href="css/socialcount.css" rel="stylesheet">
+
+<!--
+
+Tooplate 2129 Crispy Kitchen
+
+https://www.tooplate.com/view/2129-crispy-kitchen
+
+-->
+    </head>
+    
+    <body>
+        
+        <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <a class="navbar-brand" href="index.html">
+                    Pain De Vie Pizzeria
+                </a>
+
+                <div class="d-lg-none">
+                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reserve Order</button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Our Updates</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-none d-lg-block">
+                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
+                </div>
+
+            </div>
+        </nav>
+
+        <main>
+
+            <section class="hero">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-5 col-12 m-auto">
+                            <div class="heroText">
+
+                                <h1 class="text-white mb-lg-5 mb-3">Great Pizza</h1>
+
+                                <div class="c-reviews my-3 d-flex flex-wrap align-items-center">
+                                    <div class="d-flex flex-wrap align-items-center">
+                                        <h4 class="text-white mb-0 me-3">4/5</h4>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                        </div>
+                                    </div>
+
+                                    <p class="text-white w-100">From <strong>800+</strong> Customer Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7 col-12">
+                            <div id="carouselExampleCaptions" class="carousel carousel-fade hero-carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="carousel-image-wrap">
+                                        </div>
+                                        
+                                        <div class="carousel-caption">
+                                            <span class="text-white">
+                                                <i class="bi-geo-alt me-2"></i>
+                                                Mount Waverley, Melbourne
+                                            </span>
+
+                                            <h4 class="hero-text">Italian Restaurant</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="carousel-image-wrap">
+                                            <img src="images/pizza/pepperoni.jpg" class="img-fluid carousel-image" alt="A slice of pepperoni pizza being pulled">
+                                        </div>
+                                        
+                                        <div class="carousel-caption">
+                                            <div class="d-flex align-items-center">
+                                                <h4 class="hero-text">Pepperoni</h4>
+
+                                                <span class="price-tag ms-4"><small>$</small>18.90</span>
+                                            </div>
+
+                                            <div class="d-flex flex-wrap align-items-center">
+                                                <h5 class="reviews-text mb-0 me-3">3.8/5</h5>
+
+                                                <div class="reviews-stars">
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="carousel-image-wrap">
+                                            <img src="images/pasta/penne.jpg" class="img-fluid carousel-image" alt="A bowl of penne pasta">
+                                        </div>
+                                        
+                                        <div class="carousel-caption">
+                                            <div class="d-flex align-items-center">
+                                                <h4 class="hero-text">Penne Pasta</h4>
+
+                                                <span class="price-tag ms-4"><small>$</small>18.25</span>
+                                            </div>
+
+                                            <div class="d-flex flex-wrap align-items-center">
+                                                <h5 class="reviews-text mb-0 me-3">4.2/5</h5>
+
+                                                <div class="reviews-stars">
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star-fill reviews-icon"></i>
+                                                    <i class="bi-star reviews-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="overlay">
+
+                        <img src="image/italybackground.jpg" type="image/jpg">
+
+                </div>
+
+
+                <div class="overlay"></div>
+            </section>
+
+            <section class="menu section-padding">
+                <div class="container">
+                    <div class="row">
+                        <section class="news section-padding">
+                            <div class="container">
+                                <div class="row">
+            
+                                    <h2 class="text-center mb-lg-5 mb-4">Check these out!</h2>
+            
+                                    <div class="col-lg-4 col-md-4 col-12">
+                                        <div class="news-thumb mb-lg-0 mb-lg-4 mb-0">
+                                            <a href="news-detail.html">
+                                                <img src="images/pasta1.jpg" class="img-fluid news-image" alt="A bowl of pasta with meat and garnish">
+                                            </a>
+                                            
+                                            <div class="news-text-info">
+                                                <span class="category-tag me-3 bg-info">Promotions</span>
+            
+                                                <strong>8 April 2022</strong>
+            
+                                                <h5 class="news-title mt-2">
+                                                    <a href="news-detail.html" class="news-title-link">Which pasta is for you?</a>
+                                                </h5>
+                                            </div>
+                                        </div> 
+                                    </div>
+            
+                                    <div class="col-lg-4 col-md-4 col-12">
+                                        <div class="news-thumb mb-lg-0 mb-lg-4 mb-2">
+                                            <a href="news-detail.html">
+                                                <img src="images/vegepizza.jpg" class="img-fluid news-image" alt="A vegetarian pizza">
+                                            </a>
+                                            
+                                            <div class="news-text-info">
+                                                <span class="category-tag">News</span>
+            
+                                                <h5 class="news-title mt-2">
+                                                    <a href="news-detail.html" class="news-title-link">Our vegetarian options</a>
+                                                </h5>
+                                            </div>
+                                        </div> 
+                                    </div>
+            
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="news-thumb mb-4">
+                                            <a href="news-detail.html">
+                                                <img src="images/partypizza.jpg" class="img-fluid news-image" alt="A group of people sharing drinks whilst eating pizza">
+                                            </a>
+                                            
+                                            <div class="news-text-info">
+                                                <span class="category-tag me-3 bg-info">Meeting</span>
+            
+                                                <strong>30 April 2022</strong>
+            
+                                                <h5 class="news-title mt-2">
+                                                    <a href="news-detail.html" class="news-title-link">Need catering for your next event?</a>
+                                                </h5>
+                                            </div>
+                                        </div> 
+                                    </div>
+            
+                                </div>
+                            </div>
+                        </section>
+ 
+            <section class="BgImage"></section>
+
+            
+                        <div class="col-12">
+                            <h2 class="text-center mb-lg-5 mb-4">Best Sellers!</h2>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/meals/garlicbread.jpg" width="6720" height="4480" class="img-fluid menu-image" alt="Garlic bread roll on a wooden board">
+
+                                    <span class="menu-tag bg-warning">Side</span>
+                                </div>
+
+                                <div class="menu-info d-flex flex-wrap align-items-center">
+                                    <h4 class="mb-0">Garlic Bread</h4>
+
+                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>3.50</span>
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">4.3/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">102 Reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/pizza/thelot.jpg" class="img-fluid menu-image" alt="Pizza with different range of toppings being pulled with cheesy strings">
+
+                                    <span class="menu-tag bg-warning">Pizza</span>
+                                </div>
+
+                                <div class="menu-info d-flex flex-wrap align-items-center">
+                                    <h4 class="mb-0">The Lot</h4>
+
+                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>18.90</span>
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">50 Reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/pizza/pizza_c.jpg" class="img-fluid menu-image" alt="A slice of pizza with mushrooms, meat, and capsicum on a wooden board">
+
+                                    <span class="menu-tag bg-warning">Pizza</span>
+                                </div>
+
+                                <div class="menu-info d-flex flex-wrap align-items-center">
+                                    <h4 class="mb-0">Capriccioso</h4>
+
+                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>18.90</span>
+
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">86 Reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/pizza/pepperoni.jpg" class="img-fluid menu-image" alt="A slice of pepperoni pizza being pulled">
+
+                                    <span class="menu-tag bg-warning">Pizza</span>
+                                </div>
+
+                                <div class="menu-info d-flex flex-wrap align-items-center">
+                                    <h4 class="mb-0">Pepperoni</h4>
+
+                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>18.90</span>
+
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">44 Reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/pasta/carbonara.jpg" class="img-fluid menu-image" alt="A bowl of carbonara with dried pasta around the bowl">
+
+                                    <span class="menu-tag bg-warning">Pasta</span>
+                                </div>
+
+                                <div class="menu-info d-flex flex-wrap align-items-center">
+                                    <h4 class="mb-0">Carbonara</h4>
+
+                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>15.90</span>
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">4.3/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">102 Reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="menu-thumb">
+                                <div class="menu-image-wrap">
+                                    <img src="images/meals/parma.jpg" class="img-fluid menu-image" alt="A piece of chicken schnitzel">
+
+                                    <span class="menu-tag bg-warning">Parma</span>
+                                </div>
+
+                                <div class="menu-info d-flex flex-wrap align-items-center">
+                                    <h4 class="mb-0">Schnitzel</h4>
+
+                                    <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>19.90</span>
+
+                                    <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                        <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                        <div class="reviews-stars">
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star-fill reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                            <i class="bi-star reviews-icon"></i>
+                                        </div>
+
+                                        <p class="reviews-text mb-0 ms-4">64 Reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer section-padding">
+            
+            <div class="container">
+                
+                <div class="row">
+
+                    <div class="col-12">
+                        <h4 class="text-white mb-4 me-5">Pain De Vie Pizzeria</h4>
+                    </div>
+
+                    <div class="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Location</h6>
+
+                        <p>Pain De Vie Pizzeria
+                            505 High Street Road
+                            Mount Waverley, Victoria 3149</p>
+
+                        <a href="https://goo.gl/maps/V5zcaNxtEkbjEHGi6" class="custom-btn btn btn-outline-primary mt-2">Directions</a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Opening Hours</h6>
+
+
+                        <p>Monday - 11:00 am - 2:00 pm, 5:00 pm - 11:00 pm</p>
+                        <p>Tuesday Closed</p>
+                        <p>Wednesday - Saturday 11:00 am - 2:00 pm, 5:00 pm - 11:00 pm</p>
+                        <p>Sunday - 4:00 pm - 10 pm</p>
+
+                        <p>Tel: <a href="tel: (03) 9807 1788" class="tel-link">(03) 9807 1788</a></p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Social</h6>
+
+                        <ul class="socialcount" data-url="https://www.facebook.com/paindeviepizzeria/" data-share-text="Google is a search engine">
+                            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/paindeviepizzeria/" title="Share on Facebook"><span class="social-icon icon-facebook"></span><span class="count">Like</span></a></li>
+                            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=https://www.facebook.com/paindeviepizzeria/" title="Share on Twitter"><span class="social-icon icon-twitter"></span><span class="count">Tweet</span></a></li>
+                            <li class="googleplus"><a href="https://plus.google.com/share?url=https//www.facebook.com/paindeviepizzeria/" title="Share on Google Plus"><span class="social-icon icon-googleplus"></span><span class="count">+1</span></a></li>
+                        </ul>
+                    
+                        <p class="copyright-text tooplate-mt60">Copyright © 2022 Crispy Kitchen Co., Ltd.
+                        <br>Design: <a rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
+                        
+                    </div>
+
+                </div><!-- row ending -->
+                
+             </div><!-- container ending -->
+             
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="BookingModal" tabindex="-1" aria-labelledby="BookingModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="mb-0">Order Online!</h3>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body d-flex flex-column justify-content-center">
+                        <div class="booking">
+                            
+                            <form class="booking-form row" role="form" action="#" method="post">
+                                <div class="col-lg-6 col-12">
+                                    <label for="name" class="form-label">Full Name</label>
+
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="email" class="form-label">Email Address</label>
+
+                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="your@email.com" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="phone" class="form-label">Phone Number</label>
+
+                                    <input type="telephone" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="123-456-7890">
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="people" class="form-label">Number of persons</label>
+
+                                    <input type="text" name="people" id="people" class="form-control" placeholder="12 persons">
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="date" class="form-label">Date</label>
+
+                                    <input type="date" name="date" id="date" value="" class="form-control">
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="time" class="form-label">Time</label>
+
+                                    <select class="form-select form-control" name="time" id="time">
+                                      <option value="5" selected>5:00 PM</option>
+                                      <option value="6">6:00 PM</option>
+                                      <option value="7">7:00 PM</option>
+                                      <option value="8">8:00 PM</option>
+                                      <option value="9">9:00 PM</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Order Request</label>
+
+                                    <textarea class="form-control" rows="4" id="message" name="message" placeholder=""></textarea>
+                                </div>
+
+                                <div class="col-lg-4 col-12 ms-auto">
+                                    <button type="submit" class="form-control">Submit Request</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer"></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/custom.js"></script>
+        <scripy src="js/socialcount.js"></script>
+
+ 
+    </body>
+</html>
